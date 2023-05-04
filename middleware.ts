@@ -1,5 +1,5 @@
-import type { NextRequest } from "next/server";
-import { MiddlewareRequest } from "@netlify/next";
+// import type { NextRequest } from "next/server";
+import { MiddlewareRequest, NextRequest } from "@netlify/next";
 
 export async function middleware(nextRequest: NextRequest) {
   console.log("middleware");
